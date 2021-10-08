@@ -1,0 +1,16 @@
+{
+  "name": "netlify-functions-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github-shimakaze-git:shimakaze-git/netlify-functions-example.git",
+  "author": "shimakaze-git <shimakaze.soft+github@googlemail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "netlify-lambda build functions/",
+    "serve": "netlify-lambda serve functions/"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "netlify-lambda": "^1.6.3"
+  }
+}
